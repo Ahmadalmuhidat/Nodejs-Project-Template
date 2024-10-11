@@ -1,8 +1,12 @@
-exports.GetUsers = (req, res) => {
-  res.json({ message: "List of users" });
-};
+const pool = require("../helper/database").pool;
 
-exports.CreateUser = (req, res) => {
-  const user = req.body;
-  res.status(201).json({ message: "User created", user });
+exports.GetUsers = async (req, res) => {
+  const { x, y } = req.body;
+  const sqlQuery = "";
+  const data = [];
+
+  await pool.query(sqlQuery, data, (err, results) => {
+    if (err) res.status(200).json({ ErrorMessage: "something went wrong " });
+    if (results) res.status(200).json({ data: results });
+  });
 };
