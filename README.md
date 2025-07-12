@@ -9,12 +9,11 @@ This is a basic structure for a Node.js REST API where you can use it as a start
 │   ├── controllers/            # Controllers handle the logic between views and core.
 │   ├── helper/                 # Contains reusable pieces of code.
 │   ├── interfaces/             # Interfaces and abstract classes (useful for design patterns)
-├── env/                        # (Optional) Virtual environment directory
 │   ├── routes/                 # API routes.
 │   ├── middleware              # Custom middleware (e.g., JWT functions)
 │   ├── services                # Business logic (e.g., mailer)
+│   ├── server.js               # Main entry point.
 ├── package.json                # Project metadata and dependencies.
-├── server.js                   # Main entry point.
 └── README.md                   # Project documentation.
 ```
 
