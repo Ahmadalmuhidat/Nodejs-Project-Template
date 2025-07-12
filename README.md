@@ -1,17 +1,22 @@
 # Basic Node.js API
 This is a basic structure for a Node.js REST API where you can use it as a start point for your netxt project.
 
-## Project Structure
-/config # System configurations
-/controllers # Handles request/response logic 
-/routes # API routes 
-/middleware # Custom middleware (e.g., JWT functions) 
-/services # Business logic (e.g., mailer) 
-/helpers # Utility functions 
-server.js # Main entry point 
-.env # Environment variables 
-package.json # Project metadata and dependencies 
-README.md # Project documentation
+## Folder Structure
+```bash
+.
+├── src/                        # Main application package.
+│   ├── config/                 # Configuration files (e.g., database, constants)
+│   ├── controllers/            # Controllers handle the logic between views and core.
+│   ├── helper/                 # Contains reusable pieces of code.
+│   ├── interfaces/             # Interfaces and abstract classes (useful for design patterns)
+├── env/                        # (Optional) Virtual environment directory
+│   ├── routes/                 # API routes.
+│   ├── middleware              # Custom middleware (e.g., JWT functions)
+│   ├── services                # Business logic (e.g., mailer)
+├── package.json                # Project metadata and dependencies.
+├── server.js                   # Main entry point.
+└── README.md                   # Project documentation.
+```
 
 ## Prerequisites
 - [Node.js](https://nodejs.org/)
