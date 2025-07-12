@@ -1,4 +1,4 @@
-const pool = require("../helper/database").pool;
+const pool = require("../config/database").pool;
 
 exports.GetUsers = async (req, res) => {
   const { x, y } = req.body;

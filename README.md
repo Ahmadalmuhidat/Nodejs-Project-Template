@@ -2,6 +2,7 @@
 This is a basic structure for a Node.js REST API where you can use it as a start point for your netxt project.
 
 ## Project Structure
+/config # System configurations
 /controllers # Handles request/response logic 
 /routes # API routes 
 /middleware # Custom middleware (e.g., JWT functions) 
