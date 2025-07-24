@@ -59,23 +59,6 @@ This is a basic structure for a Node.js REST API where you can use it as a start
     ```
 The API will be running on `http://localhost:5000`.
 
-## Main Folders
-- **/controllers**: Handles request and response logic.
-- **/routes**: Defines API endpoints.
-- **/services**: Contains business logic and interacts with MySQL.
-- **/middleware**: Custom middleware (e.g., authentication, logging).
-- **/helpers**: Reusable utility functions.
-
-## Example Routes
-- `GET /api/users`: Get all users
-- `POST /api/users`: Create a new user
-
-## Dependencies
-- **[express](https://expressjs.com/)**: Web framework for Node.js.
-- **[mysql2](https://www.npmjs.com/package/mysql2)**: MySQL client for Node.js.
-- **[dotenv](https://www.npmjs.com/package/dotenv)**: Loads environment variables from a `.env` file.
-- **[nodemon](https://nodemon.io/)**: (Dev dependency) Automatically restarts the server on file changes.
-
 ## Environment Variables
 Make sure to configure the following in your `.env` file:
 | Variable       | Description                         |
