@@ -58,13 +58,3 @@ This is a basic structure for a Node.js REST API where you can use it as a start
     npm run dev
     ```
 The API will be running on `http://localhost:5000`.
-
-## Environment Variables
-Make sure to configure the following in your `.env` file:
-| Variable       | Description                         |
-| -------------- | ----------------------------------- |
-| `PORT`         | The port number the server will run on (default: 5000) |
-| `DB_HOST`      | MySQL database host (default: `localhost`) |
-| `DB_USER`      | MySQL database user |
-| `DB_PASSWORD`  | MySQL database password |
-| `DB_NAME`      | Name of the MySQL database |
