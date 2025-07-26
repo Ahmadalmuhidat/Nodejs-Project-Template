@@ -25,7 +25,7 @@ This is a basic structure for a Node.js REST API where you can use it as a start
 ## Setup
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/my-node-api.git
+    git https://github.com/Ahmadalmuhidat/Nodejs-Project-Template.git
     cd my-node-api
     ```
 2. Install dependencies:
