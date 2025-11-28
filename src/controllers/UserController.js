@@ -1,7 +1,7 @@
 const pool = require("../config/database").pool;
 
 exports.GetUsers = async (req, res) => {
-  const { x, y } = req.body;
+  const { x, y } = req.query;
   const sqlQuery = "";
   const data = [];
 
