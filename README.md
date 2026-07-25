@@ -61,7 +61,7 @@ The API will be running on `http://localhost:5000`.
 
 ## Useful NPM Commands
 
-### NPM Commands (Node Package Manager)
+### Node Package Manager
 
 | Command | Description |
 |---------|-------------|
